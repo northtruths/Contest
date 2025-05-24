@@ -13,7 +13,7 @@ int main() {
 		int n, m;
 		cin >> n >> m;
 		vector<vector<int>> nums(n, vector<int>(m));
-		vector<int> sum(n, 0);//每一个数组的最大分数和
+		vector<long long> sum(n, 0);//每一个数组的最大分数和
 		vector<int> hash(n);//nums与sum的对应下标
 		for (int i = 0; i < n; ++i) {
 			hash[i] = i;
@@ -33,3 +33,8 @@ int main() {
 	}
 	return 0;
 }
+
+
+
+
+
